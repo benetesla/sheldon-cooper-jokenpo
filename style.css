@@ -1,0 +1,81 @@
+body {
+    background-color: linear-gradient(to right, #243e59, #497eb6);
+    background-image: linear-gradient(to right, #243e59, #497eb6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.card {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: 20px;
+    border-radius: 50px;
+    background: #497eb6;
+    box-shadow: inset -20px -20px 14px #243e59,
+        inset 20px 20px 14px #6ebeff;                
+}
+.card input {
+    background: #497eb6;
+    box-shadow: inset -20px -20px 14px #243e59,
+        inset 20px 20px 14px #6ebeff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card input:hover {
+    background: #6ebeff;
+    box-shadow: inset -20px -20px 14px #243e59,
+        inset 20px 20px 14px #497eb6;
+}
+.card input:active {
+    background: #243e59;
+    box-shadow: inset -20px -20px 14px #6ebeff,
+        inset 20px 20px 14px #497eb6;
+}
+.card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.cardPontos {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: 20px;
+    border-radius: 50px;
+    background: #497eb6;
+    box-shadow: inset -20px -20px 14px #243e59,
+        inset 20px 20px 14px #6ebeff;                
+}
+.cardPontos input {
+    background: #497eb6;
+    box-shadow: inset -20px -20px 14px #243e59,
+        inset 20px 20px 14px #6ebeff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
